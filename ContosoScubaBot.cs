@@ -22,6 +22,7 @@ namespace ContosoScuba.Bot
         private readonly IRazorbackTemplateEngine _razorback;
         public ContosoScubaBot(IRazorbackTemplateEngine razorback)
         {
+
             _razorback = razorback;
         }
 
